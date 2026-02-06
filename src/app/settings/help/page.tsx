@@ -2,8 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, Phone, Mail, MessageCircle, ChevronDown, ChevronUp, Clock, MapPin } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import { ArrowLeft, Phone, Mail, MessageCircle, ChevronDown, ChevronUp, Clock } from 'lucide-react';
 
 interface FAQ {
   id: string;

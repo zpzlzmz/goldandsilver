@@ -62,15 +62,19 @@ export interface Trade {
 
 // 보유 자산
 export interface Holding {
-  metal: Metal;
   purity: Purity;
   quantity: number;
   averagePrice: number;
   currentPrice: number;
-  totalCost: number;
-  currentValue: number;
-  profitLoss: number;
-  profitLossPercent: number;
+  /**
+   * 아래 값들은 화면에서 계산해도 되므로 optional로 둡니다.
+   * (빌드 타입체크/데모 데이터에서 누락되기 쉬움)
+   */
+  metal?: Metal;
+  totalCost?: number;
+  currentValue?: number;
+  profitLoss?: number;
+  profitLossPercent?: number;
 }
 
 // 금은방 정보

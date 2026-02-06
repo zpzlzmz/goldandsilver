@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import { BottomNav } from '@/components/BottomNav';
 import { 
   Bell, Shield, HelpCircle, FileText, LogOut, ChevronRight,
-  Moon, Globe, Smartphone, Mail, User, Lock
+  Moon, Smartphone, User, Lock
 } from 'lucide-react';
 import { cn, storage } from '@/lib/utils';
 
